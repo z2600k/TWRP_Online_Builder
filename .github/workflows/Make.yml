@@ -22,7 +22,7 @@ jobs:
         sudo apt -y autoremove --purge
         sudo apt -y autoclean
         sudo apt clean
-        sudo sed -i 's/azure\.archive\.ubuntu\.com/mirrors\.huaweicloud\.com\/respository/' /etc/apt/sources.list
+        sudo sed -i 's/azure\.archive\.ubuntu\.com/mirrors\.huaweicloud\.com\/repository/' /etc/apt/sources.list
         sudo apt update
       
     - name: Install packages
